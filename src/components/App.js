@@ -10,7 +10,8 @@ function App() {
   return (
     <div className="App">
 			<Header name = { blogData.name }/>
-    </div>
+			<About about = { blogData.about } img = { blogData.image }/>
+		</div>
   );
 }
 

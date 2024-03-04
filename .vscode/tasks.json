@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "test",
+			"group": "test",
+			"problemMatcher": [],
+			"label": "npm: test",
+			"detail": "echo \".results.json\" && react-scripts test --reporters=@learn-co-curriculum/jest-learn-reporter --reporters=default --watchAll"
+		}
+	]
+}
