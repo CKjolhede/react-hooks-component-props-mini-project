@@ -3,11 +3,13 @@ import ArticleList from "./ArticleList"
 
 const Article = ({ title, date, preview, minutes }) => {
 	return (
-    <li className="article">
+    <article>
       <h3>{title}</h3>
-      <p>{date}</p>
-			<p>{preview}</p>
-			<p>{minutes}</p>
-		</li>)
+      <small>
+        '{date} - Minutes to Read {minutes}'
+      </small>
+      <p>{preview}</p>
+    </article>
+  );
 }
 export default Article;

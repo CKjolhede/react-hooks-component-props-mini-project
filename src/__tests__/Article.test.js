@@ -15,7 +15,7 @@ test("renders a <article> element", () => {
 
 test("renders a <h3> with the title of the post", () => {
   render(
-    <Article
+    <Article className="article"
       title={"Components 101"}
       date={"December 15, 2020"}
       preview={"Setting up the building blocks of your site"}

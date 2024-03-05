@@ -1,12 +1,13 @@
 import React from "react";
 import App from "./App";
+import logo from "../assets/logo"
 
 
 const About = ({img, about}) => {
 	return (
 		<aside className="aside img">
-			<img src = { img } alt="blog logo" />
-			<p>{about}</p>
+			<img src = {logo}  alt="blog logo" />
+			<p >`About this blog ${about}`</p>
 		</aside>
 	);
 }
